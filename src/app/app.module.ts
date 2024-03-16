@@ -12,7 +12,7 @@ import { BindingComponent } from './binding/binding.component';
   declarations: [
     AppComponent,
     ServerComponent,
-    ServersComponent,
+    ServersComponent, 
     CounterComponent,
     BindingComponent
   ],

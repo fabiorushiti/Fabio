@@ -12,5 +12,5 @@ export class BindingComponent {
   handleClick() {
     this.submitted = true;
     this.inputValue = '';
-  }
+  }  
 }

@@ -5,7 +5,7 @@ import { CounterComponent } from './counter.component';
 describe('CounterComponent', () => {
   let component: CounterComponent;
   let fixture: ComponentFixture<CounterComponent>;
-
+ 
   beforeEach(() => {
     TestBed.configureTestingModule({
       declarations: [CounterComponent]
