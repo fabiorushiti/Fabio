@@ -1,0 +1,7 @@
+<p>binding works!</p>
+<div class="container">
+    <h2>Binding</h2>
+    <input class="form-control" [(ngModel)]="inputValue" placeholder="Vendos nje vlere">
+    <button class="btn btn-success mt-2" [disabled]="inputValue === ''" (click)="handleClick()">Submit</button>
+    <p *ngIf="submitted">Vlera: {{ inputValue }}</p>
+  </div>
